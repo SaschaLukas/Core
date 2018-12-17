@@ -90,11 +90,7 @@ public class PlayerData {
 				"INSERT INTO GeneralData(playerUUID, playerIP, firstLogin, LastLogin, teamSpeakUUID, playerTokens) VALUES ('"
 						+ player.getUniqueId() + "','" + player.getAddress().getAddress().toString() + "','"
 						+ System.currentTimeMillis() + "','" + System.currentTimeMillis() + "','null','1');");
-
-		LifeCore.getInstance().getSql().update(
-				"INSERT INTO NetworkStats(BanPoints, MutePoints, currentReports, successfulReports, unsuccesfulReports, "
-				+ "currentServerLogin, currentWebsiteLoggin, currentTeamSpeakLoggin) VALUES ('0','0',");
-
+		
 		jsonObject = new JSONObject();
 
 		jsonObject
