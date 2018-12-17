@@ -1,0 +1,7 @@
+name: LifeCore
+version: 0.0.1
+description: The Ultimative Minecraft Life Core
+load: STARTUP
+authors: [Marcin__,MisterHase]
+website: https://team-life.net/
+main: net.teamlife.lifecore.LifeCore
